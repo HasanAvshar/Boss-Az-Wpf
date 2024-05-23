@@ -1,0 +1,22 @@
+﻿<UserControl x:Class="Boss_Az.Views.AboutPageView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Boss_Az.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800" Background="White">
+    <Grid>
+        <StackPanel>
+            <TextBlock Foreground="Gold" Text="Haqqımızda" HorizontalAlignment="Center" FontSize="25" FontWeight="Bold" Margin="0,0,0,10"/>
+            <TextBlock FontSize="15" Text="Layihə haqqında:" FontWeight="Bold" Margin="0,0,0,10"/>
+            <TextBlock FontSize="14" Text="Boss.Az - əmək bazarının bütün iştirakçılarının faydalana biləcəyi, dəqiq və sürətli iş və ya işçi axtarışı üçün nəzərdə tutulmuş onlayn platformadır. Layihə istifadəçilərə geniş iş elanı və CV bazasından rahat istifadə imkanı yaradır." TextWrapping="Wrap" Margin="0,0,0,10"/>
+            <TextBlock FontSize="14" Text="Layihə fəaliyyətinə 2008-ci ildə başlayıb və hal-hazırda Azərbaycanın əmək bazarında aparıcı onlayn resurslarından biridir." TextWrapping="Wrap" Margin="0,0,0,10"/>
+            <TextBlock FontSize="14" Text="Boss.Az - işədüzəltmə şirkəti deyil. Layihənin məqsədi işə götürən ilə potensial işçi arasında vasitəçisiz və operativ əlaqə imkanı yaratmaqdır." TextWrapping="Wrap" Margin="0,0,0,10"/>
+            <TextBlock FontSize="15" Text="Elanların yerləşdirilməsi:" FontWeight="Bold" Margin="0,0,0,10"/>
+            <TextBlock FontSize="14" Text="Boss.Az - istifadəçilərə sayta iş elanı və CV yerləşdirmək imkanı yaradır. Hər istifadəçi ay ərzində ödənişsiz olaraq bir iş elanı və bir CV yerləşdirə bilər." TextWrapping="Wrap" Margin="0,0,0,10"/>
+            <TextBlock FontSize="15" Text="Bizimlə əlaqə:" FontWeight="Bold" Margin="0,0,0,10"/>
+            <TextBlock FontSize="14" Text="Biz layihənin inkişafı və təkmilləşdirilməsi üçün əlimizdən gələni edirik və sizin bu haqda olan fikirlərinizi və təkliflərinizi dinləməyə hazırıq. Bizimlə əlaqə yaratmaq üçün boss@boss.az e-mail ünvanına yaza və ya (012) 505-08-10 telefon nömrəsinə zəng edə bilərsiniz." TextWrapping="Wrap" Margin="0,0,0,10"/>
+        </StackPanel>
+    </Grid>
+</UserControl>
